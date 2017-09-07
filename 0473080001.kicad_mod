@@ -1,10 +1,11 @@
-(module 0473080001 (layer F.Cu) (tedit 55DBF9E4)
-  (fp_text reference U2 (at 5.0788 -4.3242) (layer F.SilkS) hide
+(module 0473080001 (layer F.Cu) (tedit 59A5E915)
+  (fp_text reference U101 (at 5.0788 -4.3242) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (fp_text value SIM1 (at 6.627 5.814) (layer F.SilkS)
+  (fp_text value SIM_1 (at 6.627 5.814) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
+  (fp_line (start -2 16.1) (end 2 16.1) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.7 -5.6) (end -4.559 -5.6) (layer F.SilkS) (width 0.1))
   (fp_line (start -8.1 -5.6) (end -8.1 -8.9) (layer F.SilkS) (width 0.1))
   (fp_line (start -8.1 -8.9) (end -5.7 -8.9) (layer F.SilkS) (width 0.1))

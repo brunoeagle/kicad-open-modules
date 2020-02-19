@@ -1,4 +1,4 @@
-(module CJS-1200TA (layer F.Cu) (tedit 5E47FABF)
+(module CJS-1200TA (layer F.Cu) (tedit 5E4A20C7)
   (fp_text reference REF** (at -1.982 -1.808) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
@@ -15,4 +15,9 @@
   (pad 1 smd rect (at -1.75 1.15) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.75 1.15) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -1.15) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
+  (model ${KICAD_OPEN_3D}/CJS_1200TA.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

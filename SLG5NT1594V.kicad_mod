@@ -77,9 +77,4 @@
           (xy -0.181 0.115)
         ) (width 0) (fill yes))
     ) (tstamp 50a3e4ab-ca88-427d-b703-eff8caba47d6))
-  (model "/home/bruno/workspace/kicad/kicad-open-footprints/pads.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

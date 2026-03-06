@@ -1,0 +1,260 @@
+(footprint "Molex_Mini-Lock_533750310_1x03_P2.50mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex KK-254 vertical")
+	(property "Reference" "REF**"
+		(at 1.27 -4.12 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7e1d908e-3147-4fd7-872d-335ca9cb3af3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_Mini-Lock_533750310_1x03_P2.50mm_Horizontal"
+		(at 1.27 4.08 0)
+		(layer "F.Fab")
+		(uuid "240fc247-9acb-4376-8990-a5a027ba2a53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ccc63c5-956b-4705-b4d8-71e3a2e4310d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0be8d84e-580e-49ee-9993-768ed98a7325")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.95 -3.03)
+		(end -4.95 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0edc9eac-2e85-44c5-8e69-ffc055a1e7bd")
+	)
+	(fp_line
+		(start -4.95 2.99)
+		(end -2.5 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c418933a-67c2-4fc7-aa23-4d2e3a93500e")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05fcfa51-173d-4c73-a030-beedf444fa34")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3740672-34d4-42f9-be86-326f00ac4106")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d836ebf-e075-410f-81ed-73d03bc856ec")
+	)
+	(fp_line
+		(start 4.95 -3.03)
+		(end -4.95 -3.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a36d6a4a-aa64-4c27-a75f-dcb22b301ef2")
+	)
+	(fp_line
+		(start 4.95 2.99)
+		(end 2.5 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db59ba5d-31c4-4808-a481-4f7f1e943c1e")
+	)
+	(fp_line
+		(start 4.95 2.99)
+		(end 4.95 -3.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b5f1971-42a4-468c-8c05-15bb165e93c4")
+	)
+	(fp_line
+		(start -5 -3.2)
+		(end -5 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fc71f9e-bd79-409b-bc91-77aef25a2b2f")
+	)
+	(fp_line
+		(start -5 3.2)
+		(end 5 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01a9f5d1-76ec-4d55-ad6d-73f4dfc5e91c")
+	)
+	(fp_line
+		(start 5 -3.2)
+		(end -5 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9326083e-9c99-4764-adb9-9a72dbb3951f")
+	)
+	(fp_line
+		(start 5 3.2)
+		(end 5 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40adc70c-dbaf-4399-a304-96932aa26b95")
+	)
+	(fp_line
+		(start -4.9 -2.92)
+		(end -4.9 2.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb25c82f-0bb4-4e7b-8f4c-4776c47d8ba6")
+	)
+	(fp_line
+		(start -4.9 2.88)
+		(end 4.9 2.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26ddd4d2-50fd-4c34-a16a-6befb6fa9b30")
+	)
+	(fp_line
+		(start 4.9 -2.92)
+		(end -4.9 -2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d49cdebc-e80d-4c80-b521-779138036dd8")
+	)
+	(fp_line
+		(start 4.9 2.88)
+		(end 4.9 -2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18969f0b-4e69-4a5f-b9bd-a1b2d9d0dd7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.22 0)
+		(layer "F.Fab")
+		(uuid "226fd6be-7f7b-46e6-8716-3e2c7e18b5fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 3.8 2.2)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ddb80e64-0241-48e1-b576-a45a87d29463")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.5 0)
+		(size 1.74 2.19)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.143678)
+		(uuid "10df643d-0650-45d9-bd3f-b63f2f84bd7d")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.74 2.19)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22c57b4d-d06e-4ae5-86ba-307cdf27def6")
+	)
+	(pad "3" thru_hole oval
+		(at 2.5 0)
+		(size 1.74 2.19)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "732f9139-f3d7-4d2f-8f7d-f201a4a5eaf6")
+	)
+	(embedded_fonts no)
+)

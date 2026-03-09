@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.02 1.84 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "42d89e15-cc37-49f6-9f8c-ead219019b9e")
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "3953fadd-4193-429c-a8ff-309154fe53c4")
 	)
 	(fp_circle
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "56fca506-3140-4692-a14a-ddb4143bae86")
 	)
 	(fp_circle
@@ -84,7 +84,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "2e727ac1-0f8e-4f96-b6ea-c5049aa5aaa3")
 	)
 	(fp_text user "${REFERENCE}"
@@ -100,16 +100,16 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -1.75 1.75)
-		(size 2 2)
+		(at -1.75 0)
+		(size 1.8 1.8)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d1ef0363-7191-4329-8ac9-bae5529054c1")
 	)
 	(pad "2" thru_hole circle
-		(at 1.75 1.75)
-		(size 2 2)
+		(at 1.75 0)
+		(size 1.8 1.8)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -117,7 +117,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at 0 -1.75)
-		(size 2 2)
+		(size 1.8 1.8)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
